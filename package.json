@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass scss/index.scss css/styles.css",
+    "watch": "sass --watch scss/index.scss css/styles.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
 }
