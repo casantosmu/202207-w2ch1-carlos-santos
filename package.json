@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss/index.scss css/styles.css",
-    "watch": "sass --watch scss/index.scss css/styles.css",
+    "sass": "sass scss/components/order-summary.scss:css/order-summary.css",
+    "watch": "sass --watch scss/components/order-summary.scss:css/order-summary.css",
     "prepare": "husky install"
   },
   "author": "",
