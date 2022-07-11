@@ -5,5 +5,9 @@ $primary-color--400: hsl(245, 75%, 52%);
 $primary-color--700: hsl(223, 47%, 23%);
 
 body {
-  background-color: $primary-color--700;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
