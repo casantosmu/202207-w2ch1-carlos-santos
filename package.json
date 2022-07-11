@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss/components/order-summary.scss:css/order-summary.css",
-    "watch": "sass --watch scss/components/order-summary.scss:css/order-summary.css",
+    "sass": "sass scss/index.scss css/index.css",
+    "watch": "sass --watch scss/index.scss css/index.css",
     "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.53.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
   }
 }
