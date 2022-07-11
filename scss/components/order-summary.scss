@@ -1,0 +1,9 @@
+$primary-color--100: hsl(225, 100%, 98%);
+$primary-color--200: hsl(225, 100%, 94%);
+$primary-color--300: hsl(224, 23%, 55%);
+$primary-color--400: hsl(245, 75%, 52%);
+$primary-color--700: hsl(223, 47%, 23%);
+
+body {
+  background-color: $primary-color--700;
+}
