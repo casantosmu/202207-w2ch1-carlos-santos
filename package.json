@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass scss/index.scss css/styles.css",
-    "watch": "sass --watch scss/index.scss css/styles.css"
+    "watch": "sass --watch scss/index.scss css/styles.css",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "husky": "^8.0.0"
   }
 }
